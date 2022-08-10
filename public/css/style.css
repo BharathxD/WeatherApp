@@ -204,6 +204,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  main {
+    height: 80vh !important;
+  }
   .result-container .inner-container h2 {
     color: rgba(0, 0, 0, 0.718);
   }
