@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const https = require("https");
-
+require('dotenv').config();
 
 router.get("/", (req, res) => {
   res.render("home");
@@ -10,7 +10,7 @@ router.get("/", (req, res) => {
 router.post("/", function (req, res) {
   console.log(req.body.cityName);
   const query = req.body.cityName;
-  const apikey = "83b3269753720654e51dff4fdc6a4ad0";
+  const apikey = process.env.API_KEY;
   const unit = "metric";
   const url =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
