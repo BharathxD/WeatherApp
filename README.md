@@ -1,7 +1,7 @@
 
 
 
-![App Screenshot](https://i.postimg.cc/TwKCVp4T/Screenshot-2022-08-10-at-4-23-55-PM.png)
+![App Screenshot](https://i.postimg.cc/Hn6vnJYQ/Screenshot-2022-08-11-at-12-44-43-AM.png)
 
 # WeatherApp
 
