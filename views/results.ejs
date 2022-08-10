@@ -1,0 +1,28 @@
+<%- include("partials/header"); -%>
+    <main class="result-container">
+        <div class="inner-container">
+            <div class="temp">
+            <h2>
+                <%= temperature %><sup>&#8451;</sup>
+                <img src="<%= image %>" alt="weatherImage">
+            </h2>
+        </div>
+            <h1>
+                <%= cityName %> 
+            </h1>
+            <p>at IST <span><%= time %></span></p>
+            <label>Visibility</label>
+            <h3>
+                <%= weatherData %>
+            </h3>
+            <label>Wind Speed</label>
+            <h3>
+                <%= windSpeed %> 
+            </h3>
+            <label>Weather Description</label>
+            <h4>
+                <%= description %>
+            </h4>
+        </div>
+    </main>
+    <%- include("partials/footer"); -%>

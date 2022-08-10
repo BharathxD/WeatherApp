@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+<main>
+  <div class="home-container">
+    <form action="/" method="post" class="card p-2 input">
+      <div class="input-group">
+        <input
+          id="cityInput"
+          type="text"
+          name="cityName"
+          class="form-control"
+          placeholder="Enter the City name"
+          autocomplete="off"
+        />
+        <button type="submit" class="btn btn-secondary">Go</button>
+        <%if(error && error.length > 0){%>
+        <div class="alert alert-danger flash"><%=error%></div>
+        <%}%> <%if(success && success.length > 0){%>
+        <div class="alert alert-success flash"><%=success%></div>
+        <%}%>
+      </div>
+    </form>
+  </div>
+</main>
+
+<%- include("partials/footer"); -%>
