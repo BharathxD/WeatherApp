@@ -70,9 +70,9 @@ You are welcome to contribute! 😄
 
 Here are some related projects :
 
-[Blogger](https://github.com/BharathxD/Blogger)
+📝 [Blogger](https://github.com/BharathxD/Blogger)
 
-[To-Do-List](https://github.com/BharathxD/To-Do-List)
+𝌕 [To-Do-List](https://github.com/BharathxD/To-Do-List)
 
 
 ## 🔗 Links
